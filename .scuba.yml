@@ -1,0 +1,6 @@
+image: matthewtingum/muslcc-powerpc:0.1
+
+aliases:
+  test:
+    script:
+      - powerpc-linux-musl-gcc main.c -static -o test
